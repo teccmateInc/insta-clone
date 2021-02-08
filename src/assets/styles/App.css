@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+}
+.app {
+  background-color: lightgreen;
+}
+.post,
+.loaded {
+  max-width: 600px;
+  background-color: white;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.posts_app {
+  max-width: 1000px;
+  background-color: pink;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.post_right {
+  margin-left: 20px;
+}
+.app_header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+}
+
+.form-input {
+  margin: 8px 0;
+  padding: 4px;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.modalStyle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoutButton {
+  float: right;
+  left: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #4545ffe6;
+  color: #fff;
+}
+
+.footer button {
+  font-variant-caps: all-small-caps;
+  color: #fff;
+  font-size: 20px;
+  text-transform: inherit;
+  text-decoration: underline;
+  font-feature-settings: unset;
+  font-variant-caps: unset;
+}
+
+.footer button:hover {
+  text-decoration: unset;
+}
+
+.loaded {
+  background: blue;
+  color: aliceblue;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 8px;
+}
+
+.popup {
+  position: fixed;
+  width: 38%;
+  background: #5151fdd1;
+  padding: 8px;
+  top: 15px;
+  z-index: 1;
+}
